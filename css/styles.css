@@ -100,7 +100,7 @@ p{
 .card-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   gap: 10px;
   margin-top: 1rem;
 }
@@ -108,7 +108,7 @@ p{
 
 
 .card {
-  flex: 0 0 calc(33.33% - 40px);
+  flex: 0 0 calc(50% - 100px);
   width: 100%;
   max-width: 400px;
   margin:auto;
@@ -128,7 +128,7 @@ p{
  
  /*Image*/
  .card-avatar {
-  --size: 150px;
+  --size: 160px;
   width: var(--size);
   height: var(--size);
   border-radius: 60%;
